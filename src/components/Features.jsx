@@ -31,8 +31,8 @@ function Features() {
         <p className="mt-3 text-center text-gray-600 max-w-2xl mx-auto">A few highlights that make this starter a great foundation for your next idea.</p>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition bg-gradient-to-br from-gray-50 to-white">
-              <div className="h-10 w-10 rounded-lg bg-indigo-600 text-white flex items-center justify-center shadow">
+            <div key={title} className="rounded-2xl border border-red-100 p-6 shadow-sm hover:shadow-md transition bg-gradient-to-br from-rose-50 to-white">
+              <div className="h-10 w-10 rounded-lg bg-red-600 text-white flex items-center justify-center shadow">
                 <Icon className="h-5 w-5" />
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">{title}</h3>
